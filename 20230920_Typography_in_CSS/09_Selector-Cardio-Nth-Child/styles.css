@@ -1,0 +1,4 @@
+span:nth-child(6n + 1){
+    background: red;
+    color: white;
+}
