@@ -1,0 +1,57 @@
+
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    margin: 90px 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+hr {
+    margin-top 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+ul ul {
+    list-style-type: disc;
+}
+
+ul ul ul {
+    list-style-type: circle;
+}
+
+table, tr {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgrey;
+    text-align: left;
+}
+
+th, td{
+    width: 144px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 5px solid rgb(221,221,221);
+    padding-left: 30px;
+}
+
+blockquote p:last-child {
+    text-align: right;
+}
