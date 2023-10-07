@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 40px;
+}
+
+nav h1, nav ul, nav li {
+    display: inline-block;
+}
+
+ul {
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 2em;
+    padding-right: 20px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h2 {
+    font-family: serif;
+}
+h2, p {
+    color: #333;
+}
