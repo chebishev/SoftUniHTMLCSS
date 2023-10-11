@@ -1,0 +1,20 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+section {
+    margin: 160px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70vw;
+}
+
+section h2, section p {
+    max-width: 16vw;
+}

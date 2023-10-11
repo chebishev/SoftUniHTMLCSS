@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+.container, section {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+}
+
+span {
+    border: 1px solid black;
+    flex-direction: row;
+}
