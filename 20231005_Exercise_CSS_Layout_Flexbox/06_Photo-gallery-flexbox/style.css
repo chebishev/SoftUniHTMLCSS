@@ -1,35 +1,38 @@
-body, ul, li {
-    display: flex;
-}
-
-ul {
-    justify-content: space-between;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    padding: 50px;
-    height: 1vh;
+    display: flex;
+    background: #DDD;
+    padding: 3em;
+    justify-content: center;
 }
 
-.section {
-    width: 100%;
-}
-
-ul{
+.gallery ul {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
+    gap: 2em;
+    max-width: 45em;
 }
 
-li {
+.gallery li {
+    flex:1 1 200px;
+    display: flex;
+    list-style: none;
     align-items: center;
-    border: 4px solid black;
     background: white;
-    padding: 0.5em;
+    border: 6px solid black;
+    padding: 2em 1em;
+    box-shadow: 
+    0 0 1.2em 0.2em rgba(0, 0, 0, 0.3),
+    0 0 0.3em 0.1em rgba(0, 0, 0, 0.2) inset;
 }
-img {
+
+.gallery img {
     display: block;
-    padding: 20px;
-    max-height: 200px;
-    width: 100px;
+    width: 100%;
+    height: auto;
 }
