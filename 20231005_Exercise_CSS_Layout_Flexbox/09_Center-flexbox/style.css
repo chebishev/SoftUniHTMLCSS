@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #DDD;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #FFF;
+    max-width: 20em;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0em rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #ddd;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+header, main, footer {
+    padding: 1em 2em;
+    border: 1px solid black;
+}
